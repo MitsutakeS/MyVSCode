@@ -1,0 +1,228 @@
+{
+    "workbench.colorTheme": "Default High Contrast",
+    "C_Cpp.default.compilerPath": "C:\\pg\\mingw64\\bin\\g++.exe",
+    "code-runner.runInTerminal": true,
+    "terminal.integrated.defaultProfile.windows": "pwsh",
+    "terminal.integrated.profiles.windows": {
+
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell",
+            "args": [
+                "-NoExit",
+                "-Command",
+                "chcp 65001"
+            ]
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [
+
+            ],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+
+        },
+        "pwsh": {
+            "path": [
+                    "C:\\pg\\ps\\PowerShell-7.4.0-win-x64\\pwsh.exe",
+                    "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+            ],
+            "args": [
+                "-NoExit",
+                "-Command",
+                "chcp 65001",
+            ],
+            "color": "terminal.ansiBlue"
+        }
+    },
+    "powershell.powerShellAdditionalExePaths": {
+        "pwsh": "C:\\pg\\ps\\PowerShell-7.3.8-win-x64\\pwsh.exe"
+    },
+    "powershell.powerShellDefaultVersion": "pwsh",
+    "terminal.external.windowsExec": "C:\\pg\\ps\\PowerShell-7.3.8-win-x64\\pwsh.exe",
+    "code-runner.languageIdToFileExtensionMap": {
+
+
+        "bat": ".bat",
+        "powershell": ".ps1",
+        "typescript": ".ts"
+    },
+    "[powershell]": {
+        "diffEditor.codeLens": true,
+        "files.encoding": "utf8",
+        "files.autoGuessEncoding": true
+    },
+    "git.suggestSmartCommit": false,
+    "vbaLint.processOnSave": true,
+    "git.ignoreMissingGitWarning": true,
+    "editor.fontLigatures": false,
+    "editor.fontFamily": "Consolas, 'Firge35 Console', monospace",
+    "[vb]": {},
+    "code-runner.showStopIconInEditorTitleMenu": false,
+    "code-runner.executorMap": {
+
+        "javascript": "node",
+        "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "zig": "zig run",
+        "cpp": "cd $dir && g++ -I \"./str\" -I \"C:\\pg\\mingw64\\include\" -I \"C:\\pg\\cjson\\include\" $fileName -o $fileNameWithoutExt -L. -lstdc++fs -lstr -std=c++20 && $dir$fileNameWithoutExt",
+        "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "php": "php",
+        ".🔥":"mojo",
+        "kv":"cd $dir && python $fileNameWithoutExt.py",
+        "py":"python $fileName",
+        "pyw":"pythonw $fileName",
+        "perl": "perl",
+        "perl6": "perl6",
+        "ruby": "ruby",
+        "go": "go run",
+        "lua": "lua",
+        "groovy": "groovy",
+        "powershell": "powershell -ExecutionPolicy ByPass -File",
+        "bat": "cmd /c",
+        "shellscript": "bash",
+        "fsharp": "fsi",
+        "csharp": "cd $dir && dotnet run $fileName",
+        "vbscript": "cscript //Nologo",
+        "typescript": "ts-node",
+        "coffeescript": "coffee",
+        "scala": "scala",
+        "swift": "swift",
+        "julia": "julia",
+        "crystal": "crystal",
+        "ocaml": "ocaml",
+        "r": "Rscript",
+        "applescript": "osascript",
+        "clojure": "lein exec",
+        "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+        "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+        "racket": "racket",
+        "scheme": "csi -script",
+        "ahk": "autohotkey",
+        "autoit": "autoit3",
+        "dart": "dart",
+        "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+        "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+        "haskell": "runghc",
+        "nim": "nim compile --verbosity:0 --hints:off --run",
+        "lisp": "sbcl --script",
+        "kit": "kitc --run",
+        "v": "v run",
+        "sass": "sass --style expanded",
+        "scss": "scss --style expanded",
+        "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+        "FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "sml": "cd $dir && sml $fileName",
+        "mojo": "mojo run"
+    },
+    "code-runner.executorMapByGlob": {
+        "pom.xml": "cd $dir && mvn clean package"
+    },
+    "cSpell.userWords": [
+        "aggframe",
+        "ansdtfrm",
+        "boxlayout",
+        "dtentry",
+        "dtframe",
+        "figsize",
+        "JCON",
+        "jdata",
+        "kivy",
+        "kivyagg",
+        "kivymd",
+        "linewidth",
+        "Meiryo",
+        "nuitka",
+        "packcv",
+        "pwsh",
+        "pyautogui",
+        "relativedelta",
+        "serch",
+        "showweeknumbers",
+        "tkagg",
+        "tkcalendar",
+        "trueans",
+        "wsize",
+        "xlabel",
+        "ylabel",
+        "yscrollcommand",
+        "zlabel"
+    ],
+    "workbench.iconTheme": "material-icon-theme",
+    "python.terminal.launchArgs": [
+        "-u",
+    ],
+    "python.defaultInterpreterPath": "C:\\pg\\python310\\python.exe",
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
+    },
+    "redhat.telemetry.enabled": true,
+    "C_Cpp.commentContinuationPatterns": [
+        "/**"
+    ],
+    "code-runner.executorMapByFileExtension": {
+
+        ".vb": "cd $dir && vbc /nologo $fileName && $dir$fileNameWithoutExt",
+        ".vbs": "cscript //Nologo",
+        ".scala": "scala",
+        ".jl": "julia",
+        ".cr": "crystal",
+        ".ml": "ocaml",
+        ".zig": "zig run",
+        ".exs": "elixir",
+        ".hx": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+        ".rkt": "racket",
+        ".scm": "csi -script",
+        ".ahk": "autohotkey",
+        ".au3": "autoit3",
+        ".kt": "cd $dir && kotlinc $fileName -include-runtime -d $fileNameWithoutExt.jar && java -jar $fileNameWithoutExt.jar",
+        ".kts": "kotlinc -script",
+        ".dart": "dart",
+        ".pas": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+        ".pp": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+        ".d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+        ".hs": "runhaskell",
+        ".nim": "nim compile --verbosity:0 --hints:off --run",
+        ".csproj": "dotnet run --project",
+        ".fsproj": "dotnet run --project",
+        ".lisp": "sbcl --script",
+        ".kit": "kitc --run",
+        ".v": "v run",
+        ".vsh": "v run",
+        ".sass": "sass --style expanded",
+        ".cu": "cd $dir && nvcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        ".ring": "ring",
+        ".sml": "cd $dir && sml $fileName",
+        ".mojo": "mojo run"
+    },
+    "python.autoComplete.extraPaths": [
+
+    ],
+    "python.analysis.extraPaths": [],
+    "tabnine.experimentalAutoImports": true,
+    "git.autofetch": true,
+    "gitlens.ai.experimental.provider": "openai",
+    "gitlens.ai.experimental.openai.model": "gpt-4-1106-preview",
+    "files.autoSave": "afterDelay",
+    "files.associations": {
+        "kpt": "cpp"
+    },
+    "powershell.suppressAdditionalExeNotFoundWarning": true,
+}
